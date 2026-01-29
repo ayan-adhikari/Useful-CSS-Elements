@@ -30,7 +30,7 @@
 {
     width: 100%;
     /*height: 100%;*/
-    grid-gap: 1rem;
+    gap: 1rem;
 }
 .grid-3x3
 {
@@ -38,10 +38,6 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
-/*.grid-item
-{
-    
-}*/
 /*Semantic elements styling*/
 .section
 {
