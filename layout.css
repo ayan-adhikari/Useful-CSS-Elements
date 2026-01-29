@@ -61,11 +61,12 @@
     align-items: center;
     background-color: #eee;
 }
-.grey-bg
+.grey-bg-header
 {
     background-color: #64748B;
     color: white;
     margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
 }
 /*Body styling*/
 body
