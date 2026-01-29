@@ -22,5 +22,5 @@
 }
 /*Set body and loader to the same bg-color*/
 :root {
-  --bg-color-1: white;
+  --bg-color-1: #eee;
 }
