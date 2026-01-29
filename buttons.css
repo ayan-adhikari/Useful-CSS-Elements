@@ -1,16 +1,19 @@
+/*--------------------------------------------------------------------------------------------*/
+/*Button 1 (dodgerblue)*/
 .button-1 {
   /*Background/Border styling*/
   background-color: white;
   border-style: solid;
   border-width: 0.125rem;
   border-color: dodgerblue;
+  border-radius: 0.125rem;
   /*Padding/Text styling*/
   padding: 0.5rem 1rem;
   font-size: 1rem;
   /*Transition durations*/
   transition:
-    background-color 1.25s ease-in-out,
-    color 1.25s ease-in-out,
+    background-color 0.50s ease-in-out,
+    color 0.50s ease-in-out,
     transform 0.05s ease-in-out;
   /*Width/Height styling*/
   width: auto;
@@ -24,4 +27,102 @@
 }
 .button-1:active {
   transform: scale(0.9);
+}
+/*--------------------------------------------------------------------------------------------*/
+/*Button 2 (light purple)*/
+.button-2 {
+  /*Background/Border styling*/
+  background-color: white;
+  border-style: solid;
+  border-width: 0.125rem;
+  border-color: #d0bdf4;
+  border-radius: 20%;
+  /*Padding/Text styling*/
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  /*Transition durations*/
+  transition:
+    background-color 0.75s ease-in-out,
+    color 0.75s ease-in-out,
+    transform 0.1s ease-in-out;
+  /*Width/Height styling*/
+  width: auto;
+  height: auto;
+}
+.button-2:hover {
+  /*Cursor styling*/
+  cursor: pointer;
+  background-color: #d0bdf4;
+  color: white;
+}
+.button-2:active {
+  transform: scale(0.9);
+}
+/*--------------------------------------------------------------------------------------------*/
+/*Button 4(Hide button)*/
+.button-4 {
+  /*Background/Border styling*/
+  background-color: white;
+  border-style: solid;
+  border-width: 0.125rem;
+  border-color: lightgray;
+  border-radius: 0.125rem;
+  /*Padding/Text styling*/
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  /*Transition durations*/
+  transition:
+    background-color 0.25s ease-in-out,
+    color 0.25s ease-in-out,
+    transform 0.05s ease-in-out;
+  /*Width/Height styling*/
+  width: auto;
+  height: auto;
+}
+.button-4:hover {
+  /*Cursor styling*/
+  cursor: pointer;
+  background-color: lightgray;
+  color: white;
+}
+.button-4:active {
+  transform: scale(0.9);
+}
+/*Adding fixed width for consistency*/
+.button-4 {
+  width: 6rem;
+}
+/*--------------------------------------------------------------------------------------------*/
+/*Button 5 (Show button)*/
+.button-5 {
+  /*Background/Border styling*/
+  background-color: white;
+  border-style: solid;
+  border-width: 0.125rem;
+  border-color: lightgray;
+  border-radius: 0.125rem;
+  /*Padding/Text styling*/
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  /*Transition durations*/
+  transition:
+    background-color 0.25s ease-in-out,
+    color 0.25s ease-in-out,
+    transform 0.05s ease-in-out;
+  /*Width/Height styling*/
+  width: auto;
+  height: auto;
+}
+.button-5:hover {
+  /*Cursor styling*/
+  cursor: pointer;
+  background-color: lightgray;
+  color: white;
+}
+.button-5:active {
+  transform: scale(0.9);
+}
+/*Adding fixed width for consistency*/
+.button-5 {
+  width: 6rem;
 }
