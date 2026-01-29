@@ -1,0 +1,26 @@
+/*Loader 1 (spinning white circle with 3/4 of the border gray and 1.4 of the border red*/
+.loader-1
+ {
+  width: 6rem;
+  height: 6rem;
+  background: var(--bg-color-1);
+  border-radius: 50%;
+  border-color: gray;
+  border-style: solid;
+  border-width: 0.25rem;
+  border-top-color: #e63946;
+  animation: spin-1 2s infinite;
+  animation-timing-function: linear;
+}
+@keyframes spin-1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/*Set body and loader to the same bg-color*/
+:root {
+  --bg-color-1: white;
+}
