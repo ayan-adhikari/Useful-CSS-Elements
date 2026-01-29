@@ -1,0 +1,27 @@
+.button-1 {
+  /*Background/Border styling*/
+  background-color: white;
+  border-style: solid;
+  border-width: 0.125rem;
+  border-color: dodgerblue;
+  /*Padding/Text styling*/
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  /*Transition durations*/
+  transition:
+    background-color 1.25s ease-in-out,
+    color 1.25s ease-in-out,
+    transform 0.05s ease-in-out;
+  /*Width/Height styling*/
+  width: auto;
+  height: auto;
+}
+.button-1:hover {
+  /*Cursor styling*/
+  cursor: pointer;
+  background-color: dodgerblue;
+  color: white;
+}
+.button-1:active {
+  transform: scale(0.9);
+}
