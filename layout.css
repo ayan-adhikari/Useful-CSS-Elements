@@ -13,6 +13,12 @@
     font-size: clamp(0.9rem, 2vw, 2rem);
     font-family: "Headland One", serif;
 }
+.subsubheading
+{
+    margin-top: 0px;
+    font-size: clamp(0.5rem, 1vw, 1.25rem);
+    font-family: "Headland One", serif;
+}
 /*Flexbox Styling*/
 .flexbox
 {
@@ -53,8 +59,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #eee;
 }
-
+.grey-bg
+{
+    background-color: #64748B;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+/*Body styling*/
+body
+{
+    background-color: white;
+}
 /*Semantic elements styling*/
 .section
 {
@@ -67,4 +84,5 @@
 {
     min-height: 75dvh;
     width: 90dvw;
+    padding: 1rem;
 }
