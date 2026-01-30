@@ -1,4 +1,12 @@
 /*--------------------------------------------------------------------------------------------*/
+/*Grid items (act like buttons to display the code*/
+/*Plan 
+1. Make each grid-item clickable
+2. Add a small click animation for ux (even though I have no users)
+3. Make js detect button click and depending on which grid-item was clicked get text from an array (set a variable when the button is clicked that can be accessed in other functions)
+4. Use .textContent to change the text in the dialog (after doing const dialogText = document.getElementById(`id`) it should look like dialog-text.textContent(``))
+5. Make sure the text is wrapped in pre to maintain spacing and line breaks*/
+/*--------------------------------------------------------------------------------------------*/
 /*Button 1 (dodgerblue)*/
 .button-1 {
   /*Background/Border styling*/
