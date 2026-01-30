@@ -3,7 +3,7 @@
  {
   width: 6rem;
   height: 6rem;
-  background: var(--bg-color-1);
+  background: transparent;
   border-radius: 50%;
   border-color: gray;
   border-style: solid;
@@ -20,7 +20,79 @@
     transform: rotate(360deg);
   }
 }
-/*Set body and loader to the same bg-color*/
-:root {
-  --bg-color-1: #eee;
+/*Loader 2*/
+.loader-2 {
+  border-style: solid;
+  border-width: 2px;
+  border-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: transparent;
+  min-width: 2rem;
+  min-height: 2rem;
+  animation: spin-2 3s infinite;
+  animation-timing-function: linear;
+}
+.outer-loader-2 {
+  border-top-color: red;
+  width: 7.5rem;
+  height: 7.5rem;
+}
+.middle-loader-2 {
+  border-top-color: green;
+  width: 5rem;
+  height: 5rem;
+}
+.inner-loader-2 {
+  border-top-color: dodgerblue;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+@keyframes spin-2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/*Loader 3*/
+.loader-3 {
+  border-style: solid;
+  border-width: 2px;
+  border-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: transparent;
+  min-width: 2rem;
+  min-height: 2rem;
+  animation: spin-3 3s infinite;
+  animation-timing-function: linear;
+}
+.outer-loader-3 {
+  border-top-color: #4A90E2;
+  width: 7.5rem;
+  height: 7.5rem;
+}
+.middle-loader-3 {
+  border-top-color: #50E3C2;
+  width: 5rem;
+  height: 5rem;
+}
+.inner-loader-3 {
+  border-top-color: #F5A623;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+@keyframes spin-3 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
