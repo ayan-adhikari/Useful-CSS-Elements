@@ -59,7 +59,57 @@
   transform: scale(0.9);
 }
 /*--------------------------------------------------------------------------------------------*/
-/*Button 4(Hide button)*/
+/*Button 3 (My first button styled with a pseudo element)*/
+.button-3 {
+  /*Background/Border styling*/
+  background-color: white;
+  border-style: solid;
+  border-width: 0.125rem;
+  border-color: #2f6cbf;
+  border-radius: 0.125rem;
+  /*Padding/Text styling*/
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: black;
+  /*Transition durations*/
+  transition:
+    background-color 0.5s ease-in-out,
+    color 0.5s ease-in-out,
+    transform 0.05s ease-in-out;
+  /*Width/Height styling*/
+  width: auto;
+  height: auto;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+.button-3::after {
+  content: "";
+  background: #2f6cbfb0;
+  width: 10%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+  z-index: -1;
+}
+.button-3:hover {
+  /*Cursor styling*/
+  cursor: pointer;
+  color: white;
+}
+.button-3:active {
+  transform: scale(0.9);
+}
+.button-3:hover::after {
+  transform: scale(20);
+  opacity: 100%;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+/*Button 4 (Hide button)*/
 .button-4 {
   /*Background/Border styling*/
   background-color: white;
@@ -126,3 +176,4 @@
 .button-5 {
   width: 6rem;
 }
+
