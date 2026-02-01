@@ -61,6 +61,10 @@
     align-items: center;
     background-color: #eee;
 }
+/*.grid-item:hover
+{
+    cursor: pointer;
+}*/
 .grey-bg-header
 {
     background-color: #64748B;
